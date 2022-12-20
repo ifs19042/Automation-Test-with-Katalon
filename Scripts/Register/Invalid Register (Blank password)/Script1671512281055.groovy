@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.PageURL)
+
+WebUI.click(findTestObject('TC_1 -Login/Page_1 new message/i_Coming Soon_icon-user'))
+
+WebUI.selectOptionByValue(findTestObject('Register/FavoriteGenre'), FavoriteGenre, false)
+
+WebUI.selectOptionByValue(findTestObject('Register/FavoriteConsole'), FavoriteConsole, false)
+
+WebUI.selectOptionByValue(findTestObject('Register/HobbiesAndInterest'), HobbiesAndInterest, false)
+
+WebUI.check(findTestObject('Register/Male'))
+
+WebUI.setText(findTestObject('Register/RegisterEmail'), 'Testing23@gmail.com')
+
+WebUI.click(findTestObject('Register/BtnRegister'))
+
+WebUI.verifyElementText(findTestObject('InvalidLogin/Page_Home - PS Enterprise Gameshop/Pesan Eror'), 'Error: Please enter an account password.')
+
+WebUI.closeBrowser()
+
