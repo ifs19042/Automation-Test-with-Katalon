@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Daftar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>327e59b8-1bc7-4e50-a25c-2d733cc703af</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a08d6a49-bacd-4626-9ff3-23f9a5582f0b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6303ffa0-d50c-42d8-bf13-7b115e3aff20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9bb5457-1b5f-42ca-a629-e67b71850621</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Action'</defaultValue>
+      <description></description>
+      <id>a08d6a49-bacd-4626-9ff3-23f9a5582f0b</id>
+      <masked>false</masked>
+      <name>FavoriteGenre</name>
+   </variable>
+   <variable>
+      <defaultValue>'PC'</defaultValue>
+      <description></description>
+      <id>6303ffa0-d50c-42d8-bf13-7b115e3aff20</id>
+      <masked>false</masked>
+      <name>FavoriteConsole</name>
+   </variable>
+   <variable>
+      <defaultValue>'Gadgets &amp; Technology'</defaultValue>
+      <description></description>
+      <id>c9bb5457-1b5f-42ca-a629-e67b71850621</id>
+      <masked>false</masked>
+      <name>HobbiesAndInterest</name>
+   </variable>
+</TestCaseEntity>
